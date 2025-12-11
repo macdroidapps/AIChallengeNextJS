@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --background: linear-gradient(135deg, #D8B4E2 0%, #FF9A56 100%);
   --foreground: #111827;
   --chat-bg: rgba(255, 255, 255, 0.95);
-  --accent-primary: #667eea;
-  --accent-secondary: #764ba2;
+  --accent-primary: #D8B4E2;
+  --accent-secondary: #FF9A56;
 }
 
 * {
@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #D8B4E2 0%, #FF9A56 100%);
   background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
@@ -31,7 +31,7 @@ body {
 /* Тонкий стильный скролл */
 .scrollbar-thin {
   scrollbar-width: thin;
-  scrollbar-color: rgba(102, 126, 234, 0.3) transparent;
+  scrollbar-color: rgba(216, 180, 226, 0.3) transparent;
 }
 
 .scrollbar-thin::-webkit-scrollbar {
@@ -43,12 +43,12 @@ body {
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(180deg, #D8B4E2 0%, #FF9A56 100%);
   border-radius: 10px;
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #5568d3 0%, #65408b 100%);
+  background: linear-gradient(180deg, #C8A2D0 0%, #FF8C42 100%);
 }
 
 /* Анимации */
@@ -132,7 +132,7 @@ body {
   inset: 0;
   border-radius: 1rem;
   padding: 2px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #D8B4E2, #FF9A56);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
